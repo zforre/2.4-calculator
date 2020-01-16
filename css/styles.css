@@ -1,6 +1,35 @@
-.shape {
-  width: 200px;
-  height: 400px;
-  background-color: grey; }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.container {
+  font-family: sans-serif;
+  border: solid 2px #000;
+  border-radius: 3px;
+  width: 234px;
+  height: 322px;
+  text-align: center;
+  margin: 20px; }
+
+.col, .col-3, .col-6 {
+  height: 48px;
+  line-height: 48px;
+  color: #fff;
+  background-color: #8A8784;
+  border: solid 1px #666462; }
+
+.answer {
+  font-size: 40px;
+  text-align: right;
+  height: 78px;
+  line-height: 76px;
+  background-color: #666462; }
+
+.tools {
+  background-color: #747270; }
+
+.button {
+  background-color: #FD9E2B; }
 
 /*# sourceMappingURL=styles.css.map */

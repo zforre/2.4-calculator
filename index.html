@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-grid.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -15,41 +15,41 @@
   <div class="container">
 
     <div class="row">
-      <div class="col answer"> 0 </div>
+      <div class="col display"> 0 </div>
     </div>
 
     <div class="row">
-      <div class="col tools"> AC </div>
-      <div class="col tools"> +/- </div>
-      <div class="col tools"> % </div>
-      <div class="col button"> ÷ </div>
+      <button class="col tools" data-action="clear"> AC </button>
+      <button class="col tools" data-action="neg-pos"> +/- </button>
+      <button class="col tools" data-action="percent"> % </button>
+      <button class="col button" data-action="divide"> ÷ </button>
     </div>
 
     <div class="row">
-      <div class="col"> 7 </div>
-      <div class="col"> 8 </div>
-      <div class="col"> 9 </div>
-      <div class="col button"> x </div>
+      <button class="col"> 7 </button>
+      <button class="col"> 8 </button>
+      <button class="col"> 9 </button>
+      <button class="col button" data-action="multiply"> &times; </button>
     </div>
 
     <div class="row">
-      <div class="col"> 4 </div>
-      <div class="col"> 5 </div>
-      <div class="col"> 6 </div>
-      <div class="col button"> - </div>
+      <button class="col"> 4 </button>
+      <button class="col"> 5 </button>
+      <button class="col"> 6 </button>
+      <button class="col button" data-action="subtract"> - </button>
     </div>
 
     <div class="row">
-      <div class="col"> 1 </div>
-      <div class="col"> 2 </div>
-      <div class="col"> 3 </div>
-      <div class="col button"> + </div>
+      <button class="col"> 1 </button>
+      <button class="col"> 2 </button>
+      <button class="col"> 3 </button>
+      <button class="col button" data-action="add"> + </button>
     </div>
 
     <div class="row">
-      <div class="col-6"> 0 </div>
-      <div class="col-3"> . </div>
-      <div class="col-3 button"> = </div>
+      <button class="col-6"> 0 </button>
+      <button  class="col-3" data-action="decimal"> . </button>
+      <button class="col-3 button" data-action="calculate"> = </button>
     </div>
 
 </div>

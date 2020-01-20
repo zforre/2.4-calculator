@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box; }
 
+body {
+  background-color: #2F2F2F; }
+
 .container {
   font-family: sans-serif;
   border: solid 1px #666462;
@@ -21,7 +24,7 @@
   background-color: #8A8784;
   border: solid 1px #666462; }
 
-.display {
+.calculator_display {
   font-size: 80px;
   text-align: right;
   height: 160px;
@@ -49,7 +52,7 @@ button:active {
   box-shadow: 0 5px #666462;
   transform: translateY(2px); }
 
-.button {
+.operator_key {
   background-color: #2EDBFF; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -12,48 +12,55 @@
 
 <body>
 
-  <div class="container">
+  <div class="container calculator">
 
     <div class="row">
-      <div class="col display"> 0 </div>
+      <div class="col calculator_display" data-current-operand> 0 </div>
+    </div>
+
+<div class="calculator_keys">
+
+    <div class="row">
+      <button class="col tools" data-all-clear> AC </button>
+      <button class="col tools" > +/- </button>
+      <button class="col tools" > % </button>
+      <button class="col operator_key" data-operation> ÷ </button>
     </div>
 
     <div class="row">
-      <button class="col tools" data-action="clear"> AC </button>
-      <button class="col tools" data-action="neg-pos"> +/- </button>
-      <button class="col tools" data-action="percent"> % </button>
-      <button class="col button" data-action="divide"> ÷ </button>
+      <button class="col" data-number> 7 </button>
+      <!-- value='' -->
+      <button class="col" data-number> 8 </button>
+      <button class="col" data-number> 9 </button>
+      <button class="col operator_key" data-operation> &times; </button>
     </div>
 
     <div class="row">
-      <button class="col"> 7 </button>
-      <button class="col"> 8 </button>
-      <button class="col"> 9 </button>
-      <button class="col button" data-action="multiply"> &times; </button>
+      <button class="col" data-number> 4 </button>
+      <button class="col" data-number> 5 </button>
+      <button class="col" data-number> 6 </button>
+      <button class="col operator_key" data-operation> - </button>
     </div>
 
     <div class="row">
-      <button class="col"> 4 </button>
-      <button class="col"> 5 </button>
-      <button class="col"> 6 </button>
-      <button class="col button" data-action="subtract"> - </button>
+      <button class="col" data-number> 1 </button>
+      <button class="col" data-number> 2 </button>
+      <button class="col" data-number> 3 </button>
+      <button class="col operator_key" data-operation> + </button>
     </div>
 
     <div class="row">
-      <button class="col"> 1 </button>
-      <button class="col"> 2 </button>
-      <button class="col"> 3 </button>
-      <button class="col button" data-action="add"> + </button>
-    </div>
-
-    <div class="row">
-      <button class="col-6"> 0 </button>
+      <button class="col-6" data-number> 0 </button>
       <button  class="col-3" data-action="decimal"> . </button>
-      <button class="col-3 button" data-action="calculate"> = </button>
+      <button class="col-3 operator_key" data-equals> = </button>
     </div>
 
 </div>
 
+</div>
+<script src="main.js" type="text/javascript">
+
+</script>
 </body>
 
 </html>

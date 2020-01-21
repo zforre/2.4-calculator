@@ -15,7 +15,12 @@
   <div class="container calculator">
 
     <div class="row">
-      <div class="col calculator_display" data-current-operand> 0 </div>
+      <div class= "col output"
+      <div class="col current" data-current-operand>
+        <div class="previous" data-previous-operand></div>
+
+      </div>
+
     </div>
 
 <div class="calculator_keys">
@@ -32,7 +37,7 @@
       <!-- value='' -->
       <button class="col" data-number> 8 </button>
       <button class="col" data-number> 9 </button>
-      <button class="col operator_key" data-operation> &times; </button>
+      <button class="col operator_key" data-operation> * </button>
     </div>
 
     <div class="row">
@@ -51,7 +56,7 @@
 
     <div class="row">
       <button class="col-6" data-number> 0 </button>
-      <button  class="col-3" data-action="decimal"> . </button>
+      <button  class="col-3" data-number> . </button>
       <button class="col-3 operator_key" data-equals> = </button>
     </div>
 

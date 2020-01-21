@@ -24,11 +24,10 @@ body {
   background-color: #8A8784;
   border: solid 1px #666462; }
 
-.calculator_display {
-  font-size: 80px;
+.output {
+  height: 156px;
   text-align: right;
-  height: 160px;
-  line-height: 160px;
+  font-size: 80px;
   background-color: #747270; }
 
 .tools {
